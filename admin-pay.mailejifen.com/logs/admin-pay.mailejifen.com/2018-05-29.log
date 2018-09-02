@@ -1,0 +1,1313 @@
+[2018/05/29 10:06:34] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:06:34] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:06:34] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:06:35] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:10:09] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:10:09] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:10:09] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `username`='admin'] [192.168.33.1]
+
+[2018/05/29 10:10:09] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:10:09] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:10:10] [info] [yii\db\Command::execute] [UPDATE `admin_user` SET `login_time`='2018-05-29 10:10:09', `login_count`=883 WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:10:10] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user_log`] [192.168.33.1]
+
+[2018/05/29 10:10:10] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user_log`] [192.168.33.1]
+
+[2018/05/29 10:10:10] [info] [yii\db\Command::execute] [INSERT INTO `admin_user_log` (`operation_admin_id`, `operation_ip`, `operation_route`, `operation_description`, `operation_time`) VALUES (1, '192.168.33.1', '/site/login?redirect=http%3A%2F%2Fadmin-pay.mailejifen.com%2F', '<a href=\"###\">张三</a> 登录了管理后台', '2018-05-29 10:10:10')] [192.168.33.1]
+
+[2018/05/29 10:10:10] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `username`='admin'] [192.168.33.1]
+
+[2018/05/29 10:10:10] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:10:10] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:10:10] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:10:10] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:10:10] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform`] [192.168.33.1]
+
+[2018/05/29 10:10:10] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:10:10] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `pay_platform`] [192.168.33.1]
+
+[2018/05/29 10:10:10] [info] [yii\db\Command::query] [SHOW CREATE TABLE `pay_platform`] [192.168.33.1]
+
+[2018/05/29 10:10:10] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:10:10] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:10:10] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:10:11] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=1] [192.168.33.1]
+
+[2018/05/29 10:10:11] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id` IN ('3', '4', '6')] [192.168.33.1]
+
+[2018/05/29 10:10:11] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `pay_third_pay_account`] [192.168.33.1]
+
+[2018/05/29 10:10:11] [info] [yii\db\Command::query] [SHOW CREATE TABLE `pay_third_pay_account`] [192.168.33.1]
+
+[2018/05/29 10:10:11] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=2] [192.168.33.1]
+
+[2018/05/29 10:10:11] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id` IN ('1', '5')] [192.168.33.1]
+
+[2018/05/29 10:10:11] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=3] [192.168.33.1]
+
+[2018/05/29 10:10:11] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id`='1'] [192.168.33.1]
+
+[2018/05/29 10:10:11] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=4] [192.168.33.1]
+
+[2018/05/29 10:10:11] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id` IN ('1', '4')] [192.168.33.1]
+
+[2018/05/29 10:10:11] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=5] [192.168.33.1]
+
+[2018/05/29 10:10:11] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id` IN ('1', '5')] [192.168.33.1]
+
+[2018/05/29 10:10:11] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=6] [192.168.33.1]
+
+[2018/05/29 10:10:11] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id`='6'] [192.168.33.1]
+
+[2018/05/29 10:10:11] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=7] [192.168.33.1]
+
+[2018/05/29 10:10:11] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id`='1'] [192.168.33.1]
+
+[2018/05/29 10:10:11] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=9] [192.168.33.1]
+
+[2018/05/29 10:10:11] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE 0=1] [192.168.33.1]
+
+[2018/05/29 10:10:11] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform`] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `pay_platform`] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Command::query] [SHOW CREATE TABLE `pay_platform`] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=1] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id` IN ('3', '4', '6')] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `pay_third_pay_account`] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Command::query] [SHOW CREATE TABLE `pay_third_pay_account`] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=2] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id` IN ('1', '5')] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=3] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id`='1'] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=4] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id` IN ('1', '4')] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=5] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id` IN ('1', '5')] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=6] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id`='6'] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=7] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id`='1'] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=9] [192.168.33.1]
+
+[2018/05/29 10:10:23] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE 0=1] [192.168.33.1]
+
+[2018/05/29 10:10:23] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform`] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `pay_platform`] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Command::query] [SHOW CREATE TABLE `pay_platform`] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=1] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id` IN ('3', '4', '6')] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `pay_third_pay_account`] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Command::query] [SHOW CREATE TABLE `pay_third_pay_account`] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=2] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id` IN ('1', '5')] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=3] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id`='1'] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=4] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id` IN ('1', '4')] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=5] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id` IN ('1', '5')] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=6] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id`='6'] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=7] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id`='1'] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=9] [192.168.33.1]
+
+[2018/05/29 10:10:54] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE 0=1] [192.168.33.1]
+
+[2018/05/29 10:10:54] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:11:10] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:11:10] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:11:10] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:11:10] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:11:12] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:11:12] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:11:12] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `username`='admin'] [192.168.33.1]
+
+[2018/05/29 10:11:12] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:11:12] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:11:12] [info] [yii\db\Command::execute] [UPDATE `admin_user` SET `login_time`='2018-05-29 10:11:12', `login_count`=884 WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:11:12] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user_log`] [192.168.33.1]
+
+[2018/05/29 10:11:12] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user_log`] [192.168.33.1]
+
+[2018/05/29 10:11:12] [info] [yii\db\Command::execute] [INSERT INTO `admin_user_log` (`operation_admin_id`, `operation_ip`, `operation_route`, `operation_description`, `operation_time`) VALUES (1, '192.168.33.1', '/site/login', '<a href=\"###\">张三</a> 登录了管理后台', '2018-05-29 10:11:12')] [192.168.33.1]
+
+[2018/05/29 10:11:12] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `username`='admin'] [192.168.33.1]
+
+[2018/05/29 10:11:12] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:11:13] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform`] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `pay_platform`] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Command::query] [SHOW CREATE TABLE `pay_platform`] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=1] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id` IN ('3', '4', '6')] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `pay_third_pay_account`] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Command::query] [SHOW CREATE TABLE `pay_third_pay_account`] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=2] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id` IN ('1', '5')] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=3] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id`='1'] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=4] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id` IN ('1', '4')] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=5] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id` IN ('1', '5')] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=6] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id`='6'] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=7] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id`='1'] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=9] [192.168.33.1]
+
+[2018/05/29 10:11:13] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE 0=1] [192.168.33.1]
+
+[2018/05/29 10:11:13] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:11:16] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:11:16] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account`] [192.168.33.1]
+
+[2018/05/29 10:11:16] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:11:16] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `pay_third_pay_account`] [192.168.33.1]
+
+[2018/05/29 10:11:16] [info] [yii\db\Command::query] [SHOW CREATE TABLE `pay_third_pay_account`] [192.168.33.1]
+
+[2018/05/29 10:11:16] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `account_id` IN (1, 3, 4, 5, 6)] [192.168.33.1]
+
+[2018/05/29 10:11:16] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform` WHERE `id` IN ('1', '2', '3', '4', '5', '6', '7')] [192.168.33.1]
+
+[2018/05/29 10:11:16] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `pay_platform`] [192.168.33.1]
+
+[2018/05/29 10:11:16] [info] [yii\db\Command::query] [SHOW CREATE TABLE `pay_platform`] [192.168.33.1]
+
+[2018/05/29 10:11:17] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:11:17] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:11:17] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:11:17] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform`] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `pay_platform`] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Command::query] [SHOW CREATE TABLE `pay_platform`] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=1] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id` IN ('3', '4', '6')] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `pay_third_pay_account`] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Command::query] [SHOW CREATE TABLE `pay_third_pay_account`] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=2] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id` IN ('1', '5')] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=3] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id`='1'] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=4] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id` IN ('1', '4')] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=5] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id` IN ('1', '5')] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=6] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id`='6'] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=7] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE `id`='1'] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Command::query] [SELECT * FROM `pay_platform_account` WHERE `platform_id`=9] [192.168.33.1]
+
+[2018/05/29 10:11:19] [info] [yii\db\Command::query] [SELECT * FROM `pay_third_pay_account` WHERE 0=1] [192.168.33.1]
+
+[2018/05/29 10:11:19] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:11:21] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:11:21] [info] [yii\db\Command::query] [select * from pay_maile_order order by id asc limit 0,
+    		20] [192.168.33.1]
+
+[2018/05/29 10:11:21] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:11:21] [info] [yii\db\Command::query] [select count(*) from pay_maile_order order by id asc] [192.168.33.1]
+
+[2018/05/29 10:11:21] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:11:21] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:11:21] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:11:21] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:11:25] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:11:25] [info] [yii\db\Command::query] [select * from pay_refund_order order by id asc limit 0,
+    		20] [192.168.33.1]
+
+[2018/05/29 10:11:25] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:11:25] [info] [yii\db\Command::query] [select count(*) from pay_refund_order order by id asc] [192.168.33.1]
+
+[2018/05/29 10:11:25] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:11:25] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:11:25] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:11:25] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:11:26] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:11:26] [info] [yii\db\Command::query] [select * from pay_third_order order by id asc limit 0,
+    		20] [192.168.33.1]
+
+[2018/05/29 10:11:26] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:11:26] [info] [yii\db\Command::query] [select count(*) from pay_third_order order by id asc] [192.168.33.1]
+
+[2018/05/29 10:11:26] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:11:26] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:11:26] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:11:27] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:11:28] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:11:28] [info] [yii\db\Command::query] [select * from pay_maile_order order by id asc limit 0,
+    		20] [192.168.33.1]
+
+[2018/05/29 10:11:28] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:11:28] [info] [yii\db\Command::query] [select count(*) from pay_maile_order order by id asc] [192.168.33.1]
+
+[2018/05/29 10:11:28] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:11:28] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:11:28] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:11:29] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:11:30] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:11:30] [info] [yii\db\Command::query] [select * from pay_maile_order order by id asc limit 20,
+    		20] [192.168.33.1]
+
+[2018/05/29 10:11:30] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:11:30] [info] [yii\db\Command::query] [select count(*) from pay_maile_order order by id asc] [192.168.33.1]
+
+[2018/05/29 10:11:30] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:11:30] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:11:30] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:11:30] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:11:42] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:11:42] [info] [yii\db\Command::query] [select * from pay_maile_order where pay_amount = '600' order by id asc limit 0,20] [192.168.33.1]
+
+[2018/05/29 10:11:42] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:11:42] [info] [yii\db\Command::query] [select count(*) from pay_maile_order where pay_amount = '600' order by id asc] [192.168.33.1]
+
+[2018/05/29 10:11:42] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:11:42] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:11:42] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:11:42] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:11:42] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:11:42] [info] [yii\db\Command::query] [select * from pay_maile_order where pay_amount = '600' order by id asc limit 0,20] [192.168.33.1]
+
+[2018/05/29 10:11:42] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:11:42] [info] [yii\db\Command::query] [select count(*) from pay_maile_order where pay_amount = '600' order by id asc] [192.168.33.1]
+
+[2018/05/29 10:11:42] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:11:42] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:11:42] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:11:42] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:12:04] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:12:04] [info] [yii\db\Command::query] [select * from pay_maile_order where pay_amount = '600' order by id asc limit 0,20] [192.168.33.1]
+
+[2018/05/29 10:12:04] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:12:04] [info] [yii\db\Command::query] [select count(*) from pay_maile_order where pay_amount = '600' order by id asc] [192.168.33.1]
+
+[2018/05/29 10:12:04] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:12:04] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:12:04] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:12:05] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:12:09] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:12:09] [info] [yii\db\Command::query] [select * from pay_maile_order where pay_amount = '600' order by id asc] [192.168.33.1]
+
+[2018/05/29 10:12:09] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:12:09] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:12:28] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:12:28] [info] [yii\db\Command::query] [select * from pay_maile_order order by id asc limit 0,
+    		20] [192.168.33.1]
+
+[2018/05/29 10:12:28] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:12:28] [info] [yii\db\Command::query] [select count(*) from pay_maile_order order by id asc] [192.168.33.1]
+
+[2018/05/29 10:12:28] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:12:28] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:12:28] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:12:29] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:12:32] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:12:32] [info] [yii\db\Command::query] [select * from pay_maile_order order by id asc] [192.168.33.1]
+
+[2018/05/29 10:12:32] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:12:32] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:12:44] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:12:44] [info] [yii\db\Command::query] [select * from pay_maile_order where pay_type = 'alipay' order by id asc limit 0,20] [192.168.33.1]
+
+[2018/05/29 10:12:44] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:12:44] [info] [yii\db\Command::query] [select count(*) from pay_maile_order where pay_type = 'alipay' order by id asc] [192.168.33.1]
+
+[2018/05/29 10:12:44] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:12:44] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:12:44] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:12:44] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:12:47] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:12:47] [info] [yii\db\Command::query] [select * from pay_maile_order where pay_type = 'alipay' order by id asc] [192.168.33.1]
+
+[2018/05/29 10:12:47] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:12:47] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:25:54] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:25:54] [info] [yii\db\Command::query] [select * from pay_refund_order order by id asc limit 0,
+    		20] [192.168.33.1]
+
+[2018/05/29 10:25:54] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:25:54] [info] [yii\db\Command::query] [select count(*) from pay_refund_order order by id asc] [192.168.33.1]
+
+[2018/05/29 10:25:54] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:25:54] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:25:54] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:25:54] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:32:03] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:32:03] [info] [yii\db\Command::query] [select * from pay_maile_order order by id asc limit 0,
+    		20] [192.168.33.1]
+
+[2018/05/29 10:32:03] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:32:03] [info] [yii\db\Command::query] [select count(*) from pay_maile_order order by id asc] [192.168.33.1]
+
+[2018/05/29 10:32:03] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:32:03] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:32:03] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:32:03] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:32:04] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:32:04] [info] [yii\db\Command::query] [select * from pay_refund_order order by id asc limit 0,
+    		20] [192.168.33.1]
+
+[2018/05/29 10:32:04] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:32:04] [info] [yii\db\Command::query] [select count(*) from pay_refund_order order by id asc] [192.168.33.1]
+
+[2018/05/29 10:32:04] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:32:04] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:32:04] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:32:04] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:32:06] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:32:06] [info] [yii\db\Command::query] [select * from pay_refund_order order by id asc] [192.168.33.1]
+
+[2018/05/29 10:32:06] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:32:06] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:32:16] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:32:16] [info] [yii\db\Command::query] [select * from pay_third_order order by id asc limit 0,
+    		20] [192.168.33.1]
+
+[2018/05/29 10:32:16] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:32:16] [info] [yii\db\Command::query] [select count(*) from pay_third_order order by id asc] [192.168.33.1]
+
+[2018/05/29 10:32:16] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:32:16] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:32:16] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:32:16] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:36:27] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:36:27] [info] [yii\db\Command::query] [select * from pay_third_order order by id asc limit 0,
+    		20] [192.168.33.1]
+
+[2018/05/29 10:36:27] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:36:28] [info] [yii\db\Command::query] [select count(*) from pay_third_order order by id asc] [192.168.33.1]
+
+[2018/05/29 10:36:28] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:36:28] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:36:28] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:36:28] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:37:58] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:37:58] [info] [yii\db\Command::query] [select * from pay_third_order order by id asc limit 0,
+    		20] [192.168.33.1]
+
+[2018/05/29 10:37:58] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:37:58] [info] [yii\db\Command::query] [select count(*) from pay_third_order order by id asc] [192.168.33.1]
+
+[2018/05/29 10:37:58] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:37:58] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:37:58] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:37:59] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:38:03] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:38:03] [info] [yii\db\Command::query] [select * from pay_third_order order by id asc limit 0,
+    		20] [192.168.33.1]
+
+[2018/05/29 10:38:03] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:38:04] [info] [yii\db\Command::query] [select count(*) from pay_third_order order by id asc] [192.168.33.1]
+
+[2018/05/29 10:38:04] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:38:04] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:38:04] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:38:04] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:38:05] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:38:05] [info] [yii\db\Command::query] [select * from pay_third_order order by id asc limit 0,
+    		20] [192.168.33.1]
+
+[2018/05/29 10:38:05] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:38:05] [info] [yii\db\Command::query] [select count(*) from pay_third_order order by id asc] [192.168.33.1]
+
+[2018/05/29 10:38:05] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:38:05] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:38:05] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:38:05] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:38:40] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:38:40] [info] [yii\db\Command::query] [select * from pay_third_order order by id asc limit 0,
+    		20] [192.168.33.1]
+
+[2018/05/29 10:38:40] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:38:40] [info] [yii\db\Command::query] [select count(*) from pay_third_order order by id asc] [192.168.33.1]
+
+[2018/05/29 10:38:40] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:38:40] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:38:40] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:38:41] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:39:08] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:39:08] [info] [yii\db\Command::query] [select * from pay_third_order order by id asc limit 0,
+    		20] [192.168.33.1]
+
+[2018/05/29 10:39:08] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:39:08] [info] [yii\db\Command::query] [select count(*) from pay_third_order order by id asc] [192.168.33.1]
+
+[2018/05/29 10:39:08] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:39:08] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:39:08] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:39:08] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:39:23] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:39:23] [info] [yii\db\Command::query] [select * from pay_third_order order by id asc] [192.168.33.1]
+
+[2018/05/29 10:39:23] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:39:23] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:39:39] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:39:39] [info] [yii\db\Command::query] [select * from pay_third_order where pay_state = 'SUCCESS' and send_time>='2018-05-29' and create_time>='2018-05-29' and send_time<='2018-05-29' and create_time<='2018-05-29' order by id asc limit 0,20] [192.168.33.1]
+
+[2018/05/29 10:39:39] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:39:39] [error] [yii\base\ErrorException:1] [exception 'yii\base\ErrorException' with message 'Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_time' in 'where clause'' in /vagrant/www/framework/vendor/yiisoft/yii2/db/Command.php:825
+Stack trace:
+#0 /vagrant/www/framework/vendor/yiisoft/yii2/db/Command.php(825): PDOStatement->execute()
+#1 /vagrant/www/framework/vendor/yiisoft/yii2/db/Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /vagrant/www/admin-pay.mailejifen.com/controllers/OrderController.php(127): yii\db\Command->queryAll()
+#3 [internal function]: app\controllers\OrderController->actionThirdPayOrder()
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /vagrant/www/framework/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 /vagrant/www/framework/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('third-pay-order', Array)
+#7 /vagrant/www/framework/vendor/yiisoft/yii2/web/Application.php(84):' in /vagrant/www/framework/vendor/yiisoft/yii2/db/Schema.php:595
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}] [192.168.33.1]
+
+[2018/05/29 10:39:39] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 /vagrant/www/framework/vendor/yiisoft/yii2/base/ErrorHandler.php(193): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#7 {main}] [192.168.33.1]
+
+[2018/05/29 10:40:52] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:40:52] [info] [yii\db\Command::query] [select * from pay_third_order where pay_state = 'SUCCESS' and send_time>='2018-05-29' and send_time<='2018-05-29' order by id asc limit 0,20] [192.168.33.1]
+
+[2018/05/29 10:40:52] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:40:52] [info] [yii\db\Command::query] [select count(*) from pay_third_order where pay_state = 'SUCCESS' and send_time>='2018-05-29' and send_time<='2018-05-29' order by id asc] [192.168.33.1]
+
+[2018/05/29 10:40:52] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:40:52] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:40:52] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:40:52] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:40:59] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:40:59] [info] [yii\db\Command::query] [select * from pay_third_order where pay_state = 'SUCCESS' order by id asc limit 0,20] [192.168.33.1]
+
+[2018/05/29 10:40:59] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:40:59] [info] [yii\db\Command::query] [select count(*) from pay_third_order where pay_state = 'SUCCESS' order by id asc] [192.168.33.1]
+
+[2018/05/29 10:40:59] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:40:59] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/29 10:40:59] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `id`=1] [192.168.33.1]
+
+[2018/05/29 10:40:59] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:50:09] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:50:09] [info] [yii\db\Command::query] [select * from pay_third_order where pay_state = 'SUCCESS' order by id asc] [192.168.33.1]
+
+[2018/05/29 10:50:09] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/29 10:50:09] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/29 10:51:44] [error] [yii\web\HttpException:404] [exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/user/list".' in /vagrant/www/framework/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /vagrant/www/framework/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user/user/list', Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /vagrant/www/admin-pay.mailejifen.com/web/index.php(33): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in /vagrant/www/framework/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /vagrant/www/framework/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /vagrant/www/admin-pay.mailejifen.com/web/index.php(33): yii\base\Application->run()
+#2 {main}] [192.168.33.1]
+
+[2018/05/29 10:51:44] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/29 10:51:44] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory does not exist: /vagrant/www/admin-pay.mailejifen.com/web/assets' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2/web/AssetManager.php:175
+
+Stack trace:
+#0 /vagrant/www/framework/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /vagrant/www/framework/vendor/yiisoft/yii2/di/Container.php(366): ReflectionClass->newInstanceArgs(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/di/Container.php(151): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /vagrant/www/framework/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /vagrant/www/framework/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /vagrant/www/framework/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /vagrant/www/framework/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /vagrant/www/framework/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(55): yii\base\Component->__get('assetManager')
+#10 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(55): yii\debug\panels\AssetPanel->save()
+#11 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#12 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#13 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}] [192.168.33.1]
+

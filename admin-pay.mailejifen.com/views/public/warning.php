@@ -1,0 +1,6 @@
+<div>警告：{{$msg}}</div>
+{{if $url}}
+<script>setTimeout(function(){
+	location.assign('{{$url}}');
+}, 1000);</script>
+{{/if}}

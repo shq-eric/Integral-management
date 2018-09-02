@@ -1,0 +1,9 @@
+.buildpath
+.project
+.settings
+log.txt
+.DS_Store
+components/.DS_Store
+components/extensions/.DS_Store
+vendor/.DS_Store
+vendor/yiisoft/.DS_Store

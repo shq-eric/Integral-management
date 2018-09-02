@@ -1,0 +1,805 @@
+[2018/05/18 15:16:16] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 15:16:16] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 18:14:43] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 18:14:44] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 18:17:27] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 18:17:27] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 18:17:27] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 18:17:27] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 18:17:34] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 18:17:34] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 18:30:51] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 18:30:51] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 18:31:44] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 18:31:44] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 18:31:49] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 18:31:49] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 18:33:35] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 18:33:35] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 18:35:58] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 18:35:58] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 18:38:02] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 18:38:01] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 18:38:04] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 18:38:04] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 18:38:04] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 18:38:04] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:20:55] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:20:55] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:21:21] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:21:21] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/18 19:21:21] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `username`='admin'] [192.168.33.1]
+
+[2018/05/18 19:21:21] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/18 19:21:21] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/18 19:21:21] [info] [yii\db\Command::execute] [UPDATE `admin_user` SET `login_time`='2018-05-18 19:21:20', `login_ip`='192.168.33.1', `login_count`=841 WHERE `id`=1] [192.168.33.1]
+
+[2018/05/18 19:21:22] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user_log`] [192.168.33.1]
+
+[2018/05/18 19:21:22] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user_log`] [192.168.33.1]
+
+[2018/05/18 19:21:22] [info] [yii\db\Command::execute] [INSERT INTO `admin_user_log` (`operation_admin_id`, `operation_ip`, `operation_route`, `operation_description`, `operation_time`) VALUES (1, '192.168.33.1', '/site/login', '<a href=\"###\">张三</a> 登录了管理后台', '2018-05-18 19:21:22')] [192.168.33.1]
+
+[2018/05/18 19:21:22] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `username`='admin'] [192.168.33.1]
+
+[2018/05/18 19:21:22] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:21:22] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:21:22] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:21:22] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:21:22] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:21:29] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:21:29] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/18 19:21:29] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `username`='admin'] [192.168.33.1]
+
+[2018/05/18 19:21:29] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/18 19:21:29] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/18 19:21:29] [info] [yii\db\Command::execute] [UPDATE `admin_user` SET `login_time`='2018-05-18 19:21:29', `login_count`=842 WHERE `id`=1] [192.168.33.1]
+
+[2018/05/18 19:21:29] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user_log`] [192.168.33.1]
+
+[2018/05/18 19:21:29] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user_log`] [192.168.33.1]
+
+[2018/05/18 19:21:29] [info] [yii\db\Command::execute] [INSERT INTO `admin_user_log` (`operation_admin_id`, `operation_ip`, `operation_route`, `operation_description`, `operation_time`) VALUES (1, '192.168.33.1', '/site/login?redirect=http%3A%2F%2Fadmin-pay.mailejifen.com%2Fsite%2Findex', '<a href=\"###\">张三</a> 登录了管理后台', '2018-05-18 19:21:29')] [192.168.33.1]
+
+[2018/05/18 19:21:29] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `username`='admin'] [192.168.33.1]
+
+[2018/05/18 19:21:29] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:21:29] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:21:29] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:21:29] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:21:29] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:21:36] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:21:36] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/18 19:21:36] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `username`='admin'] [192.168.33.1]
+
+[2018/05/18 19:21:36] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/18 19:21:36] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/18 19:21:36] [info] [yii\db\Command::execute] [UPDATE `admin_user` SET `login_time`='2018-05-18 19:21:36', `login_count`=843 WHERE `id`=1] [192.168.33.1]
+
+[2018/05/18 19:21:36] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user_log`] [192.168.33.1]
+
+[2018/05/18 19:21:36] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user_log`] [192.168.33.1]
+
+[2018/05/18 19:21:37] [info] [yii\db\Command::execute] [INSERT INTO `admin_user_log` (`operation_admin_id`, `operation_ip`, `operation_route`, `operation_description`, `operation_time`) VALUES (1, '192.168.33.1', '/site/login?redirect=http%3A%2F%2Fadmin-pay.mailejifen.com%2Fsite%2Findex', '<a href=\"###\">张三</a> 登录了管理后台', '2018-05-18 19:21:36')] [192.168.33.1]
+
+[2018/05/18 19:21:37] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `username`='admin'] [192.168.33.1]
+
+[2018/05/18 19:21:37] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:21:37] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:21:37] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:21:37] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:21:37] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:24:19] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:24:19] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/18 19:24:19] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `username`='sheric'] [192.168.33.1]
+
+[2018/05/18 19:24:19] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:24:23] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:24:23] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/18 19:24:24] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `username`='sheric'] [192.168.33.1]
+
+[2018/05/18 19:24:24] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:24:35] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:24:35] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/18 19:24:35] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `username`='sheric'] [192.168.33.1]
+
+[2018/05/18 19:24:35] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:24:36] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:24:36] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:28:51] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:28:51] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/18 19:28:51] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `username`='admin'] [192.168.33.1]
+
+[2018/05/18 19:28:51] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/18 19:28:51] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/18 19:28:51] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:29:10] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:29:10] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:29:11] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:29:11] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:29:11] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:29:11] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:29:13] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:29:13] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/18 19:29:13] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `username`='admin'] [192.168.33.1]
+
+[2018/05/18 19:29:13] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/18 19:29:13] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/18 19:29:13] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:29:28] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:29:28] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:29:34] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:29:34] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:30:42] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:30:42] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:31:02] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:31:02] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:31:05] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:31:05] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:32:14] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:32:14] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:32:14] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:32:14] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:32:29] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:32:29] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:32:34] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:32:34] [info] [yii\db\Connection::open] [Opening DB connection: mysql:host=120.76.152.62;dbname=pay] [192.168.33.1]
+
+[2018/05/18 19:32:34] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `username`='admin'] [192.168.33.1]
+
+[2018/05/18 19:32:34] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user`] [192.168.33.1]
+
+[2018/05/18 19:32:34] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user`] [192.168.33.1]
+
+[2018/05/18 19:32:34] [info] [yii\db\Command::execute] [UPDATE `admin_user` SET `login_time`='2018-05-18 19:32:34', `login_count`=844 WHERE `id`=1] [192.168.33.1]
+
+[2018/05/18 19:32:34] [info] [yii\db\Command::query] [SHOW FULL COLUMNS FROM `admin_user_log`] [192.168.33.1]
+
+[2018/05/18 19:32:34] [info] [yii\db\Command::query] [SHOW CREATE TABLE `admin_user_log`] [192.168.33.1]
+
+[2018/05/18 19:32:34] [info] [yii\db\Command::execute] [INSERT INTO `admin_user_log` (`operation_admin_id`, `operation_ip`, `operation_route`, `operation_description`, `operation_time`) VALUES (1, '192.168.33.1', '/site/login?redirect=http%3A%2F%2Fadmin-pay.mailejifen.com%2Fsite%2Findex', '<a href=\"###\">张三</a> 登录了管理后台', '2018-05-18 19:32:34')] [192.168.33.1]
+
+[2018/05/18 19:32:34] [info] [yii\db\Command::query] [SELECT * FROM `admin_user` WHERE `username`='admin'] [192.168.33.1]
+
+[2018/05/18 19:32:34] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:32:34] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:32:34] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:32:34] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:32:34] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:37:12] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:37:12] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:37:12] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:37:12] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:37:13] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:37:13] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+
+[2018/05/18 19:37:13] [info] [yii\web\Session::open] [Session started] [192.168.33.1]
+
+[2018/05/18 19:37:13] [warning] [yii\log\Dispatcher::dispatch] [Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' 
+
+in /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): No suc...', '/vagrant/www/fr...', 48, Array)
+#1 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/vagrant/www/ad...')
+#2 /vagrant/www/framework/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /vagrant/www/framework/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /vagrant/www/framework/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}] [192.168.33.1]
+

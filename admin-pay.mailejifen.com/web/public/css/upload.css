@@ -1,0 +1,19 @@
+.img-upload {
+	cursor: pointer;
+}
+.upload-no-img {
+	background: url('/public/image/goods_thumb_m');
+	background-width: 100%; 
+	background-height: 100%; 
+}
+.del-1{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	right: 15px;
+	top: 0;
+	font-size:25px;
+	font-weight: bold;
+	cursor: pointer;
+}
